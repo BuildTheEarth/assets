@@ -4,7 +4,7 @@
     <img src="images/logos/logo.png" alt="Logo" width="128" height="128">
   </a>
 </p>
-<h1 align="Center">BuildTeamTools</h1>
+<h1 align="Center">Assets</h1>
 <p align="center">
   <b>A Collection of BuildTheEarth Content Assets</b>
  
