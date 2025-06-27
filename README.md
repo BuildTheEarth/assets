@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/BuildTheEarth/assets">
-    <img src="images/logos/logo.png" alt="Logo" width="128" height="128">
+    <img src="https://github.com/BuildTheEarth/assets/blob/main/images/logos/logo_pr.png?raw=true" alt="Logo" width="128" height="128">
   </a>
 </p>
 <h1 align="Center">Assets</h1>
