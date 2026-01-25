@@ -1,0 +1,28 @@
+name: Verify PR Checklist
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+jobs:
+  validate-checklist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for unchecked boxes
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const body = context.payload.pull_request.body;
+            if (!body) {
+              console.log("No description provided.");
+              return; 
+            }
+            
+            // patterns for unchecked boxes: "- [ ]", "* [ ]", "1. [ ]"
+            const uncheckedPattern = /^\s*[-*1-9]\.?\s+\[\s\]/m;
+            
+            if (uncheckedPattern.test(body)) {
+              core.setFailed("🚨 You have unchecked checklist items in your Pull Request description. Please complete the checklist to proceed.");
+            } else {
+              console.log("✅ All checklist items appear to be completed.");
+            }
