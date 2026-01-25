@@ -8,9 +8,9 @@ If you use these assets, please check the table below to see if specific attribu
 
 | Asset / Directory            | Creator(s)                                                                            | Notes |
 | ---------------------------- | ------------------------------------------------------------------------------------- | ----- |
-| `images/logos/`              | dimaxxing, [olivephio](https://www.instagram.com/olvrlo.dsgn/), madconcepts, nudlsupp |       |
-| `images/emojis/`             | dimaxxing, [olivephio](https://www.instagram.com/olvrlo.dsgn/)                        |       |
-| `images/icons/`              | [olivephio](https://www.instagram.com/olvrlo.dsgn/)                                   |       |
+| `logos/`                     | dimaxxing, [olivephio](https://www.instagram.com/olvrlo.dsgn/), madconcepts, nudlsupp |       |
+| `emojis/`                    | dimaxxing, [olivephio](https://www.instagram.com/olvrlo.dsgn/)                        |       |
+| `icons/`                     | [olivephio](https://www.instagram.com/olvrlo.dsgn/)                                   |       |
 | `images/global_plot_system/` | xylotrupes                                                                            |       |
 | `merch/`                     | nudlsupp, gutterguy                                                                   |       |
 | `events/`                    | _Various Contributors_                                                                |       |
